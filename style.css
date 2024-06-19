@@ -1,3 +1,10 @@
+/* utilize a regra @import para importar uma fonte do google fontes */
+
+
+/* use o seletor universal * para resetar os estilos que já vem predefinido do navegador para que você estilize como quiser */
+
+
+/* Coloque o mesmo estilo no body das páginas login e cadastro */
 
 
 
@@ -8,6 +15,10 @@
   border-radius: 18px;
   margin-bottom: 5px;
 }
+
+/* Estilize a classe container de forma que organize todos os elementos dentro dele */
+
+
 
 /* Estilo para o pseudo-elemento ::before do elemento com a classe container */
 .container::before { 
@@ -22,6 +33,8 @@
   z-index: 0; 
 }
 
+/* Faça a estilização que é comum as classes login e logo, e desse forma enxugue o seu código */
+
 
 
 .login {
@@ -32,6 +45,7 @@
   gap: 20px; /*coloca um espaço de 20 pixels entre cada item, para que eles não fiquem grudados um no outro.*/
 }
 
+/* Estilize a tag h2 que está dento da classe login */
 
 
 .login .inputBx {
@@ -54,6 +68,8 @@
   color: #fff; 
 }
 
+/* Estilize a sub-classe placeholder de todos os imputs que estão dentro de um elemento inputBx que por sua vez está dentro do elemento login */
+
 
 
 .button {
@@ -75,6 +91,8 @@
   cursor: pointer; 
   transition: background-color 0.3s ease; 
 }
+
+/* altere o fundo de um botão quando o mouse estiver sobre ele, aplicando um gradiente linear, faça isso estilizando a pseudo-classe hover de button */
 
 
 .social-icons {
@@ -112,3 +130,4 @@
   font-size: 0.8em; 
   color: #9ca3ab; 
 }
+
